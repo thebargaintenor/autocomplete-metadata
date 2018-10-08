@@ -1,0 +1,13 @@
+# IDE rubbish
+.vscode/
+
+# caching rubbish
+.mypy_cache/
+.pytest_cache/
+src/__pycache__
+
+# metadata we don't need on github
+data/
+
+# creds we REALLY don't want on github
+src/utilities/config.py
