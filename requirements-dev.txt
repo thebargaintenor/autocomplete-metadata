@@ -1,0 +1,12 @@
+pandas
+requests
+flask
+sqlalchemy
+psycopg2
+attrs
+
+pep8
+pylint
+pytest
+mypy
+rope

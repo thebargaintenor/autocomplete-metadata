@@ -1,0 +1,6 @@
+pandas
+requests
+flask
+sqlalchemy
+psycopg2
+attrs
