@@ -2,15 +2,7 @@
 Search-as-you-type experiment as a web service
 
 ## Development
-Well, I suppose you need to make your database in the exact manner as the models exist?  Or, you know, have the correct ones already.  This was more for my own curiosity and amusement.  Everything else you need is in the Pipfile.
-
-Anyway, here's Pipenv.
-
-```sh
-cd autocomplete-metadata
-pipenv install
-pipenv shell
-```
+Well, I suppose you need to make your database in the exact manner as the models exist?  Or, you know, have the correct ones already.  This was more for my own curiosity and amusement.  The requirements files are exactly what they appear to be.  The `-dev` one has linting and typing stuff.
 
 You'll want to duplicate `config.example.py` as `config.py` and add the appropriate DB credentials for exporting data that this service can use.  To export that data to a JSON file:
 
